@@ -1,4 +1,6 @@
-# Git and Github Tutorial
+# Git and Github Tutorial (Credit to Radwan Albahrani!)
+
+This tutorial was originally made by [Radwan Albahrani](https://github.com/Radwan-Albahrani). I've copied it and removed the segments on branching and beyond to keep it simple. This abridged tutorial only covers what you need to know to **submit tasks for the GDG Game Development Bootcamp**.
 
 ## Overview
 
@@ -154,107 +156,7 @@ git push
 - Click on the create pull request button.
 ![Alt text](/readme/image12.png)
 
-#### 2.2. Git Branching
-
-Usually, you will be working on a feature or a bug fix in a separate branch. This is to avoid conflicts with the main branch and to keep the main branch clean.
-
-##### 2.2.1. Create a new branch
-
-- Run the following command to create a new branch:
-
-```bash
-git checkout -b <branch-name>
-```
-
-Example:
-
-```bash
-git checkout -b feature-1
-```
-
-##### 2.2.2. Switch to a branch
-
-- Run the following command to switch to a branch:
-
-```bash
-git checkout <branch-name>
-```
-
-Example:
-
-```bash
-git checkout main
-```
-
-##### 2.2.3. Merge branches
-
-- Run the following command to merge a branch into the main branch:
-
-```bash
-git merge <branch-name>
-```
-
-Example:
-
-```bash
-git merge feature-1
-```
-
-#### 2.3. Git Collaboration
-
-This section will guide you through the process of collaborating with others on a project.
-
-##### 2.3.1. Add a remote repository
-
-- Run the following command to add a remote repository:
-
-```bash
-git remote add <remote-name> <remote-url>
-```
-
-Example:
-
-```bash
-git remote add origin https://github.com/Programming-Club-IAU/Level-1.1.git
-```
-
-##### 2.3.2. Fetch changes
-
-- Run the following command to fetch changes from a remote repository:
-
-```bash
-git fetch <remote-name>
-```
-
-Example:
-
-```bash
-git fetch origin
-```
-
-##### 2.3.3. Pull changes
-
-- Run the following command to pull changes from a remote repository:
-
-```bash
-git pull <remote-name> <branch-name>
-```
-
-Example:
-
-```bash
-
-git pull origin main
-```
-
-##### 2.3.4. Add Collaborators
-
-- Go to the repository page and click on the settings tab.
-- Click on the manage access button.
-- Click on the invite a collaborator button.
-- Search for the username of the collaborator you want to add.
-- Click on the add collaborator button.
 
 ## Conclusion
 
-This tutorial has covered the basics of Git and GitHub. You should now be able to clone a repository, add changes, commit changes, push changes, create a pull request, create a new branch, switch to a branch, merge branches, add a remote repository, fetch changes, pull changes, and add collaborators.
+This tutorial has covered the basics of Git and GitHub enough for you to start submitting your tasks. You should now be able to clone a repository, add changes, commit changes, push changes, and create a pull request.
